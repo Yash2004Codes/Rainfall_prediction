@@ -1,0 +1,1 @@
+  predicted_class = model.predict(features)[0]  # 0 or 1
