@@ -63,7 +63,7 @@ const RainfallPrediction = () => {
                 value={formData[key]}
                 onChange={handleChange}
                 className="form-control"
-                placeholder={`Enter ${key}`}
+                placeholder={`Eg.Enter 55`}
                 required
               />
             </div>
