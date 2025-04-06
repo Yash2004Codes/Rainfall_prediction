@@ -20,7 +20,7 @@ const RainfallPrediction = () => {
     setLoading(true);
     try {
       const response = await 
-      fetch("https://rainfall-prediction-hrd3.onrender.com", {
+      fetch("https://rainfall-prediction-hrd3.onrender.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
